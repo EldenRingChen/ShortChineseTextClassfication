@@ -21,4 +21,5 @@ use the embedding in the classfier,the model would adjust the embedding for the 
 I do not use all of the char,after cutting by jieba,use join method,we get a seq,the spilt the seq to char by char,then feed into the model.just like the end to end model.
 
 ## Revisiting
+seq2seq model do not fit the model well(RNN and LSTM)
 the lenth of seq is too short,maybe tf-idf or other statistical model like svm can fit the data well.
