@@ -8,7 +8,7 @@ When choose I use Word2vec(train from the small corpus and pre-trained from a bi
 
 #### Word Level Embedding
 ##### Embedding from target corpus
-the corpus is too tiny,so the word level embedding (trained by the target text, Skip-Gram model with Negative Sampling,Windows_size = 2,for each pos word,we get 10 neg word) is too bad, all model get 20% accuracy.
+the corpus is too tiny,so the word level embedding (trained by the target text, Skip-Gram model with Negative Sampling,Windows_size = 2,for each pos word,we get 10 neg word) is too bad, RNN model get 30% accuracy.
 
 ##### Embedding from Renmin Paper news
 RNN,CNN and Transformer are not bad,both of their accuracy is about 75%, the transformer also perform better than others.
